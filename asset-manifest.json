@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/flat-trade/static/css/main.f0781f4b.css",
+    "main.js": "/flat-trade/static/js/main.c61b1788.js",
+    "index.html": "/flat-trade/index.html",
+    "main.f0781f4b.css.map": "/flat-trade/static/css/main.f0781f4b.css.map",
+    "main.c61b1788.js.map": "/flat-trade/static/js/main.c61b1788.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0781f4b.css",
+    "static/js/main.c61b1788.js"
+  ]
+}
