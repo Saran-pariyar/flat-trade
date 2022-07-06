@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/flat-trade/static/css/main.f0781f4b.css",
-    "main.js": "/flat-trade/static/js/main.c61b1788.js",
+    "main.css": "/flat-trade/static/css/main.fec769b0.css",
+    "main.js": "/flat-trade/static/js/main.e7da5255.js",
+    "static/media/four.jpg": "/flat-trade/static/media/four.0686278a41a6d490a6b3.jpg",
     "index.html": "/flat-trade/index.html",
-    "main.f0781f4b.css.map": "/flat-trade/static/css/main.f0781f4b.css.map",
-    "main.c61b1788.js.map": "/flat-trade/static/js/main.c61b1788.js.map"
+    "main.fec769b0.css.map": "/flat-trade/static/css/main.fec769b0.css.map",
+    "main.e7da5255.js.map": "/flat-trade/static/js/main.e7da5255.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0781f4b.css",
-    "static/js/main.c61b1788.js"
+    "static/css/main.fec769b0.css",
+    "static/js/main.e7da5255.js"
   ]
 }
