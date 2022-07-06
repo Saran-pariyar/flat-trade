@@ -1,0 +1,65 @@
+.hero-section {
+    height: 85vh;
+    background: rgba(0, 0, 0, 0.4) url('/src/assets/img/four.jpg');
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: sticky;
+    /* we gave top:3.5rem cause it will stick right after navbar height i.e. 3.5rem */
+    top: 3.5rem;
+    /* we gave z-index - value so that this section will be override by the section below it  */
+    z-index: -11;
+    color: #ffff;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+.first-heading {
+    font-size: 4rem;
+    margin: .5rem 0;
+}
+
+.second-heading {
+    font-size: 3rem;
+}
+
+.explore-button {
+    font-size: 2rem;
+    padding: 0.5rem;
+    background-color: #063a58;
+    color: #ffff;
+    display: inline-block;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: padding .4s ease-out;
+    border-radius: 2rem;
+    margin: 1rem 0;
+}
+
+.explore-button:hover {
+    cursor: pointer;
+    padding: 0.8rem;
+}
+
+@media only screen and (max-width:800px) {
+    .hero-section{
+    background: rgba(0, 0, 0, 0.7) url('/src/assets/img/four.jpg');
+    }
+    .first-heading {
+        font-size: 2.5rem;
+    }
+
+    .second-heading {
+        font-size: 1.5rem;
+    }
+
+    .explore-button {
+        font-size: 1rem;
+    }
+}
