@@ -1,24 +1,22 @@
 import React from "react";
 import "./mainSection.css";
-import flat from "./five.jpg";
+import flat from "../../../assets/img/two.jpg";
 
 const MainSection = () => {
   return (
-    <section className="main">
-      <div className="main-container">
-        <div className="flat-detail">
-          <h1>Buildings</h1>
-          <h5>Address,google map link,copy button</h5>
-          <div className="buttons">
-            <div className="btn">View Flat</div>
-            <div className="btn">Share</div>
-          </div>
-        </div>
-        <div className="flat-img">
-          <img src={flat} alt="Image" className="image" />
+    <div className="main-container">
+      <div className="text-section">
+        <div className="heading">Flat Heading</div>
+        <div className="address">America, USA</div>
+        <div className="btn-section">
+          <button className="view-flat-btn">View Flat</button>
+          <button className="share-btn">Share</button>
         </div>
       </div>
-    </section>
+      <div className="img-section">
+        <img className="flat-image" src={flat} alt="" />
+      </div>
+    </div>
   );
 };
 export default MainSection;
