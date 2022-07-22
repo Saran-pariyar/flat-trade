@@ -1,0 +1,14 @@
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    max-width: 70%;
+}
+
+@media only screen and (max-width:900px) {
+    .container{
+        width: auto;
+    }
+}

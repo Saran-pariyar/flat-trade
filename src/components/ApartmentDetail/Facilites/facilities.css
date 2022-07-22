@@ -1,0 +1,40 @@
+.facilities-section{
+    padding: 1rem;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    border: 2px solid red;
+    flex-wrap: wrap;
+    }
+    .facilities-icon-section{
+        border: 2px solid black;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    max-width: 17rem;
+    background-color: red;
+            color: white;
+    }
+    .facilities-main-icons{
+        font-size: 2rem;
+    }
+    .facilities-flat-no{
+    
+    }
+    .facilities-benefit-2{
+    
+    }
+    .facilities-benefit-3{
+    }
+    
+    @media only screen and (max-width:900px) {
+        .facilities-section{
+            padding: 0.5rem;
+            
+        }
+        .facilities-icon-section{
+            max-width: 15rem;
+            min-height: 15rem;
+        }
+    }
