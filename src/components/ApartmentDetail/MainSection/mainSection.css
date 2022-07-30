@@ -11,19 +11,22 @@
     width: 40%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+    text-align: center;
     align-items: center;
     padding: 3rem 1rem;
+    border : 2px solid black; 
+    
 }
 
 
 .heading {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
 .address {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     /* font-weight: bold; */
 }
 
@@ -46,6 +49,9 @@
 
 }
 
+.margin-top-bottom{
+    margin: 0.5rem;
+}
 .view-flat-btn {}
 
 .share-btn {
@@ -55,8 +61,10 @@
 
 /* image section  */
 .img-section {
-    width: 40%;
+    width: 50%;
     padding: 1rem;
+    border : 2px solid black; 
+    
 }
 
 .flat-image {
@@ -83,7 +91,7 @@
 
 }
 .view-flat-btn{
-padding: 1rem 1.5rem;
+padding: 0.5rem 1.5rem;
 border-radius: 20px;
 border: 0;
 margin: 1rem;
@@ -108,7 +116,7 @@ margin: 1rem;
     .text-section {
         text-align: center;
         padding: 0.5rem;
-        width: 80%;
+        width: 100%;
     }
 
     .heading {
@@ -128,7 +136,10 @@ margin: 1rem;
     }
 
     .img-section {
-        width: 80%;
+        width: 100%;
+    }
+    .margin-top-bottom{
+        margin:0.2rem;
     }
 }
 

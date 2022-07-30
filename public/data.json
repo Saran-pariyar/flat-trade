@@ -1,0 +1,26 @@
+{
+    "apartment":{
+"id":1,
+"address":["Apartment heading","America USA"]
+,
+"apartment_image":"flat-trade/img/two.jpg",
+"view_flats":"",
+"apartment_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur fuga sit commodi dolor quia architecto quae quo sint consequatur natus? Amet fugiat dolore minima animi!",
+"flat_no":1,
+"benefit_2":"It is very beneficial",
+"benefit_3":"It's benefit 2 is very beneficial",
+
+"facilities":[
+{"number":0, "title":"Parking Facility"},
+{"number":1 , "title": "Gym"},
+{"number":2 , "title": "Advanced Lock"},
+{"number":3 , "title": "Wifi"},
+{"number":4 , "title": "Package Management"},
+{"number":5, "title":"Swimming Pool"}
+],
+"contact_details":{
+    "location":"America USA",
+    "email":"dummy@gmail.com",
+    "contact_no":"89234234"
+}
+}}

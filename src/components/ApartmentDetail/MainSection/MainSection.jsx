@@ -1,26 +1,29 @@
 import React from "react";
 import "./mainSection.css";
-import flat from "../../../assets/img/two.jpg";
 
-const MainSection = () => {
+
+const MainSection = ({data}) => {
+  console.log(data.apartment.apartment_image);
+  
+  
   return (
     <div >
     <div className="main-container">
       <div className="text-section">
-        <div className="heading">Apartment Heading</div>
-        <div className="address">America, USA</div>
-        <div className="btn-section">
+        <div className="heading margin-top-bottom">{data.apartment.address[0]}</div>
+        <div className="address margin-top-bottom">{data.apartment.address[1]}</div>
+        <div className="btn-section margin-top-bottom">
           <button className="view-flat-btn">View Flat</button>
           <button className="share-btn">Share</button>
         </div>
       </div>
       <div className="img-section">
-        <img className="flat-image" src={flat} alt="" />
+        <img className="flat-image" src={data.apartment.apartment_image} alt="" />
       </div>
     </div>
     <div className="description">
       <h1>Description</h1>
-      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur fuga sit commodi dolor quia architecto quae quo sint consequatur natus? Amet fugiat dolore minima animi!
+      <p> {data.apartment.apartment_description}
       </p>
       </div>
       <div className='vacantFlats'>
