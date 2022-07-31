@@ -6,7 +6,9 @@
 }
 .container{
     max-width: 70%;
-    background-color: #a1898933;
+    background-color: #281d8f;
+    color: #ffff;
+    outline: yellow solid 5px;
 }
 
 @media only screen and (max-width:900px) {
