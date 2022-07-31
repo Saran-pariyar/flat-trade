@@ -34,7 +34,7 @@ const ApartmentDetail = () => {
       <MainSection data={data} />
       <Benefit />
       <Facilities facilities_array={data.apartment.facilities}/>
-      <Location />
+      <Location contact_details = {data.apartment.contact_details} />
       </div>) : "not found"} 
       
     </section>

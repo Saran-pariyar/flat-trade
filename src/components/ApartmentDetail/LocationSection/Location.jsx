@@ -3,22 +3,22 @@ import "./location.css";
 import { HiLocationMarker } from "react-icons/hi";
 import { AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
 
-const Location = () => {
+const Location = ({contact_details}) => {
   return (
     <div className="location-section">
       <section className="location-text-section">
         <h1>Nearby Places</h1>
         <div className="text-and-icon">
           <HiLocationMarker />
-          <p>America, Chicago</p>
+          <p>{contact_details.location}</p>
         </div>
         <div className="text-and-icon">
           <AiOutlineMail />
-          <p>example@gmail.com</p>
+          <p>{contact_details.email}</p>
         </div>
         <div className="text-and-icon">
           <AiOutlinePhone />
-          <p>+912343 234234 </p>
+          <p>{contact_details.contact_no} </p>
         </div>
       </section>
       <section className="map-section">
