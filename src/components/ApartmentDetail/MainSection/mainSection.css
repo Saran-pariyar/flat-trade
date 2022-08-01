@@ -3,10 +3,9 @@
     justify-content: space-around;
     width: 100%;
     min-height: 40vh;
-    padding:1rem 2rem ;
+    padding: 1rem 2rem;
 }
 
-/* text section  */
 .text-section {
     width: 40%;
     display: flex;
@@ -15,8 +14,8 @@
     text-align: center;
     align-items: center;
     padding: 3rem 1rem;
-    border : 2px solid black; 
-    
+    border: 2px solid black;
+
 }
 
 
@@ -27,10 +26,8 @@
 
 .address {
     font-size: 1.3rem;
-    /* font-weight: bold; */
 }
 
-/* button styling  */
 .btn-section button {
     outline: none;
     padding: 1rem;
@@ -38,7 +35,6 @@
     border-radius: 20px;
     font-weight: bold;
     font-size: 1.2rem;
-    /* color: #ffff; */
     border: 0;
     transition: all 0.1s;
 }
@@ -49,30 +45,30 @@
 
 }
 
-.margin-top-bottom{
+.margin-top-bottom {
     margin: 0.5rem;
 }
-.view-flat-btn {}
 
 .share-btn {
     background: #000;
     color: white;
 }
 
-/* image section  */
+
 .img-section {
     width: 50%;
     padding: 1rem;
-    border : 2px solid black; 
-    
+    border: 2px solid black;
+
 }
 
 .flat-image {
     max-width: 100%;
     max-height: 100%;
 }
-/* for description section  */
-.description{
+
+
+.description {
     padding: 1rem;
     border: 2px solid blue;
     display: grid;
@@ -81,36 +77,32 @@
     text-align: center;
 }
 
-/* for vacant flat section  */
-.vacantFlats{
-    /* padding: 1rem; */
+.vacantFlats {
     display: grid;
     place-items: center;
     border: 2px solid peru;
     margin: 0.3rem 0;
 
 }
-.view-flat-btn{
-padding: 0.5rem 1.5rem;
-border-radius: 20px;
-border: 0;
-margin: 1rem;
+
+.view-flat-btn {
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    border: 0;
+    margin: 1rem;
 }
-.view-flat-btn:hover{
+
+.view-flat-btn:hover {
     cursor: pointer;
 }
-.flat-detail{
-
-}
 
 
-/* responsiveness  */
+
 @media only screen and (max-width:860px) {
     .main-container {
         flex-direction: column;
         height: auto;
         align-items: center;
-        /* justify-content: space-around; */
     }
 
     .text-section {
@@ -126,7 +118,6 @@ margin: 1rem;
 
     .address {
         font-size: 1rem;
-        /* margin: 0.5rem 0; */
     }
 
     .btn-section button {
@@ -138,9 +129,8 @@ margin: 1rem;
     .img-section {
         width: 100%;
     }
-    .margin-top-bottom{
-        margin:0.2rem;
+
+    .margin-top-bottom {
+        margin: 0.2rem;
     }
 }
-
-

@@ -24,10 +24,9 @@
 
 .text-and-icon {
     display: flex;
-    /* justify-content: center; */
-    /* padding: 0.5rem 1rem 0 1rem; */
+
 }
-.text-and-icon > *{
+.text-and-icon .items{
     font-size: 1.1rem;
     margin: 0.2rem 0.5rem;
 }
@@ -35,7 +34,7 @@
     .location-section{
         flex-direction: column;
     }
-    .location-section > * {
+    .location-section section {
         width: 100%;
         margin: 0 0 1rem 0;
     }

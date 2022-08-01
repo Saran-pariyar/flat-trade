@@ -9,15 +9,15 @@ const Location = ({contact_details}) => {
       <section className="location-text-section">
         <h1>Nearby Places</h1>
         <div className="text-and-icon">
-          <HiLocationMarker />
+          <HiLocationMarker className="items" />
           <p>{contact_details.location}</p>
         </div>
         <div className="text-and-icon">
-          <AiOutlineMail />
+          <AiOutlineMail className="items" />
           <p>{contact_details.email}</p>
         </div>
         <div className="text-and-icon">
-          <AiOutlinePhone />
+          <AiOutlinePhone className="items" />
           <p>{contact_details.contact_no} </p>
         </div>
       </section>

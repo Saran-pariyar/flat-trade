@@ -1,7 +1,6 @@
 .facilities-section {
     padding: 1rem;
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
     width: 100%;
     text-align: center;
@@ -35,10 +34,4 @@
         flex-wrap: wrap;
         justify-content: center;
     }
-
-    /* .facilities-icon-section {
-        max-width: 13rem;
-        min-height: 15rem;
-    } */
-    
 }
