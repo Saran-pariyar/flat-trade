@@ -3,7 +3,7 @@
 "id":1,
 "address":["Apartment heading","America USA"]
 ,
-"apartment_image":"flat-trade/img/two.jpg",
+"apartment_image":"/img/two.jpg",
 "view_flats":"",
 "apartment_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur fuga sit commodi dolor quia architecto quae quo sint consequatur natus? Amet fugiat dolore minima animi!",
 "flat_no":1,
